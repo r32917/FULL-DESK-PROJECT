@@ -1,0 +1,25 @@
+/* Layout Styling */
+.layout {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.layout-container {
+  display: flex;
+  flex: 1;
+  overflow: hidden;
+}
+
+.main-content {
+  flex: 1;
+  padding: 2rem;
+  overflow-y: auto;
+  background-color: #f5f5f5;
+}
+
+@media (max-width: 600px) {
+  .main-content {
+    padding: 1rem;
+  }
+}
